@@ -60,6 +60,6 @@ Helmet is configured with the contentSecurityPolicy and xDownloadOptions options
 
 ## Testing
 
-If you switch directories after running the tests in another, you will need to run npm test -- -u to update the snapshot test in that directory. 
-If you do not use npm test -- -u, you will get an error because Jest is looking for snapshot files that are in a differnt location.
+If you switch directories after running the tests in another, you will need to run `npm test -- -u` to update the snapshot test in that directory. 
+If you do not use `npm test -- -u`, you will get an error because Jest is looking for snapshot files that are in a differnt location.
 
