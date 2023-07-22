@@ -1,0 +1,109 @@
+.form-title {
+    font-weight: 650;
+    font-size: 20px;
+}
+
+.main-container {
+    margin-top: 2vh;
+}
+
+.my-button {
+    margin: 0 0.5vw;
+}
+
+.returned-item-container {
+    
+    margin-top: 4vh;
+    margin-left: 3.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.returned-item-container > * {
+    border: 2px solid;
+    width: 300px;
+    height: 360px;
+    margin: 10px;
+}
+
+.image-type-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-type-container img {
+    padding-right: 0.7vw;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.returned-item {
+    font-family: 'Nova Flat';
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(126, 184, 235, 0.589);
+}
+
+.star-icon {
+    height: 22px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.star-icon-clicked {
+    height: 22px;
+    color: rgb(255, 232, 20);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* disable the scrolling bar for the <p> text */
+.name-item {
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding-bottom: 5vh;
+    margin-top: 2vh;
+    overflow-y: scroll;
+    /* For Firefox */
+    scrollbar-width: none; 
+    /* For Internet Explorer and Edge */
+    -ms-overflow-style: none;
+}
+
+/* Hide the scrollbar */
+.name-item::-webkit-scrollbar {
+    width: 0; 
+}
+
+.description-item {
+    font-family: 'Raleway';
+    font-weight: 700;
+    /* margin-top: 0.5vh; */
+    margin-bottom: 2.8vh;
+    overflow-y: scroll;
+    /* For Firefox */
+    scrollbar-width: none; 
+    /* For Internet Explorer and Edge */
+    -ms-overflow-style: none;
+}
+
+.description-item::-webkit-scrollbar {
+    width: 0; 
+}
+
+/* link at the bottom of the item */
+.returned-item a {
+    padding-bottom: 2vh;
+    position: absolute;
+    bottom: 0;
+}
+

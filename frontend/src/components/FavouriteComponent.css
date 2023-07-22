@@ -1,0 +1,80 @@
+.saved-item-container > * {
+    border: 2px solid;
+    width: 300px;
+    height: 360px;
+    margin: 10px;
+}
+
+.save-image-type-container {
+    display: flex;
+    align-items: center;
+}
+
+.save-image-type-container img {
+    padding-right: 0.7vw;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.saved-item {
+    font-family: 'Nova Flat';
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(126, 184, 235, 0.589);
+}
+
+/* disable the scrolling bar for the <p> text */
+.save-name-item {
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding-bottom: 5vh;
+    margin-top: 2vh;
+    overflow-y: scroll;
+    /* For Firefox */
+    scrollbar-width: none; 
+    /* For Internet Explorer and Edge */
+    -ms-overflow-style: none;
+}
+
+/* hide the scrollbar */
+.save-name-item::-webkit-scrollbar {
+    width: 0; 
+}
+
+.description-item {
+    font-family: 'Raleway';
+    font-weight: 700;
+    /* margin-top: 0.5vh; */
+    margin-bottom: 2.8vh;
+    overflow-y: scroll;
+    /* For Firefox */
+    scrollbar-width: none; 
+    /* For Internet Explorer and Edge */
+    -ms-overflow-style: none;
+}
+
+.description-item::-webkit-scrollbar {
+    width: 0; 
+}
+
+.save-bottom-items {
+    display: flex;
+    padding-bottom: 1vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.save-bottom-items a {
+    margin-right: 8.5vw;
+}
+
+.save-bottom-items button {
+    font-size: 15px;
+    border: 0;
+    border-radius: 8px;
+    min-width: 4vw;
+}
+
