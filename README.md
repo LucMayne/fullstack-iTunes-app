@@ -19,7 +19,7 @@ https://fullstack-itunes-app-4ed292a11bf3.herokuapp.com/
 1. Clone the repository to your local machine.
 2. Navigate to the `root` directory and run the command `npm install`.
 3. Navigate to the `frontend` directory and run the command `npm install`.
-4. In the `root` directory, open app.js and update this build code:
+4. In the `root` directory, open `app.js` and update this build code:
 ```javascript
 // build
 if (process.env.NODE_ENV === 'production'){
